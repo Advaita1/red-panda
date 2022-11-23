@@ -1,0 +1,7 @@
+.imageContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
+}
