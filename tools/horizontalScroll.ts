@@ -1,7 +1,7 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, RefObject } from "react";
 
 export default function useHorizontalScroll() {
-  const elementRef = useRef();
+  const elementRef = useRef(null);
   useEffect(() => {
     const element: any = elementRef.current;
     if (element) {
