@@ -1,0 +1,18 @@
+.nav {
+  z-index: 4;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    padding-bottom: 1.8rem;
+  }
+}

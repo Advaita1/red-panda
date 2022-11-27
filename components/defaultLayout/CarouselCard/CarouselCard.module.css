@@ -1,17 +1,20 @@
 .card {
-  width: max(10vw, 300px);
-  aspect-ratio: 1.8 / 1;
+  /* aspect-ratio: auto 1.8 / 1; */
+  height: max(22vh, 128px);
+  width: max(40vh, 233px);
   border-radius: 0.5rem;
   margin-top: 0.75rem;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
+  flex-grow: 0;
+  cursor: pointer;
 }
 
 @media (max-width: 770px) {
   .card {
-    width: max(10vw, 150px);
-    height: 250px;
+    width: 150px;
+    height: 230px;
     cursor: grab;
   }
 }

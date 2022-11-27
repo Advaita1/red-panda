@@ -17,7 +17,9 @@
     "incremental": true,
     "paths": {
       "@components/*": ["components/*"],
-      "@tools/*": ["tools/*"]
+      "@tools/*": ["tools/*"],
+      "@redux/*": ["redux/*"],
+      "@assets/*": ["assets/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

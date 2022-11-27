@@ -1,19 +1,18 @@
 .carousel {
-  height: 45vh;
+  height: 400px;
   width: 100%;
   position: absolute;
   left: 0px;
   bottom: 0px;
-  z-index: 1;
   overflow: auto hidden;
+  background-color: black;
 
   display: flex;
-  justify-content: space-between;
   gap: clamp(1rem, 2vw, 2rem);
-  margin-top: clamp(2rem, 2vw, 3rem);
-  margin-bottom: clamp(2rem, 2vw, 3rem);
+  /* margin-top: clamp(2rem, 2vw, 3rem);
+  margin-bottom: clamp(2rem, 2vw, 3rem); */
   padding: 0rem clamp(1rem, 2vw, 2rem);
-  transform: translateY(70%) scale(0.9);
+  transform: translateY(120%) scale(0.9);
   transition: transform 500ms cubic-bezier(.13,.53,.38,.97); 
 }
 
